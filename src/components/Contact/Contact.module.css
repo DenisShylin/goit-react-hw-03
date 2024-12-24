@@ -1,0 +1,52 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nameWrapper,
+.phoneWrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    color: #000000;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.number {
+    font-size: 16px;
+    color: #666;
+}
+
+.deleteButton {
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.deleteButton:hover {
+    background-color: #e0e0e0;
+}
